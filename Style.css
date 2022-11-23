@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Minecraftia;
+}
+
+.topbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topbar a {
+  float: left;
+  right: 50%;
+  left: 50%;
+  color: rgb(17, 231, 63);
+  text-align: center;
+  padding: 30px 20px 18px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topbar a:hover {
+  background-color: rgb(17, 231, 63);
+  color: black;
+}
+
+.topbar a.active {
+  background-color: #04AA6D;
+}
